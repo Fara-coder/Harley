@@ -282,7 +282,8 @@ body {
   color: #ffd03b;
   border-color: #ffd03b;
 }
-.menu-icon-wrapper {
+@media (max-width: 980px) {
+  .menu-icon-wrapper {
   /*   background: red; */
   width: 30px;
   height: 30px;
@@ -348,6 +349,7 @@ body {
   transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-in 0.2s;
+}
 }
 .info {
   position: relative;
